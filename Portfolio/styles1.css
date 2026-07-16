@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav .logo {
+    display: flex;
+    align-items: center;}
+    
+nav .logo img {
+    width: 40px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 0.5em; /* Space between logo and title */
+}
+
+nav h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 4em 2em;
+    background: #f0f2f5;
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+}
+.profile-picture {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.button {
+    padding: 0.5em 1.5em;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.skills-section {
+    padding: 3em 2em;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-item {
+    background-color: #4a90e2; /* Change color as desired */
+    color: white;
+    padding: 0.75em 1.5em;
+    font-size: 1.1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.project {
+    background-color: #fff;
+    padding: 1.5em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
